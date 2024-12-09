@@ -22,7 +22,8 @@ export const Home = ({ id, fetchedUser }) => {
           <Button stretched size="l" mode="secondary" onClick={() => routeNavigator.push('persik')}>
             Покажите Персика, пожалуйста!
           </Button>
-          <Link onClick={() => routeNavigator.push('newpanel')}>Новая панель</Link>
+          {/* <Link onClick={() => routeNavigator.push('newpanel')}>Новая панель</Link> */}
+          <Link onClick={() => routeNavigator.push('task1')}>Задание 1</Link>
         </Div>
       </Group>
     </Panel>
